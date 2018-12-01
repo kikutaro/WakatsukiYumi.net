@@ -9,8 +9,8 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  document.getElementById("countdown").innerHTML = "若月佑美さんの乃木坂46卒業まで <strong>" + days + "日 " + hours + "時間 "
-  + minutes + "分 " + seconds + "秒 " + "</strong>";
+  document.getElementById("countdown").innerHTML = "若月佑美さんの乃木坂46卒業から <strong>" + days + "日 " + hours + "時間 "
+  + minutes + "分 " + seconds + "秒 " + "</strong>" + "経過";
 }, 1000);
 
 var countDownDateToCeremony = new Date("2018-12-04T19:00:00").getTime();
